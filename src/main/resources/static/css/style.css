@@ -1,0 +1,163 @@
+body{
+	background:#e2e2e2;
+}
+
+.bg-primary{
+	background: #009688 !important;
+}
+
+.banner{
+	width:100%;
+	height:93vh;
+	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("../images/pexels-andrea-piacquadio-3756680.jpg");
+	background-size:cover;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+/* CSS */
+.button-18,input[type=file]::file-selector-button {
+  align-items: center;
+  margin-top: 20px;
+  background-color: #0A66C2;
+  background:#009688;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,input[type=file]::file-selector-button:hover { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active,input[type=file]::file-selector-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled,input[type=file]::file-selector-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.header-font {
+  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fd1506;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-linkedin{
+    color:#0077B5;
+}
+.fa-twitter{
+    color:#4099FF;
+}
+.fa-google{
+    color:#d34836;
+}
+.bg-primary {
+ background-color: #000 !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.footer {
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
